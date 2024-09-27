@@ -5,6 +5,7 @@ from selenium import webdriver
 from tests.pageObjects.pom.loginPage import LoginPage
 from tests.pageObjects.pom.dashboardPage import DashboardPage
 from tests.utils.common_utilis import webdriver_wait
+from tests.constants.Constants import Constants
 
 #Assertions and use the Page Object class
 
@@ -12,7 +13,7 @@ from tests.utils.common_utilis import webdriver_wait
 def setup():
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get("https://app.vwo.com/#/login")
+    driver.get(Constants.app_url())
     return driver
 
 @allure.epic("VWO Login Test")
