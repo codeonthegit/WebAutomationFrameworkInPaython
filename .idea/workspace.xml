@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4facfd-fb15-48d4-aaea-9ced75fe12d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/WebAutomationFrameworkInPaython.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/constants/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pageObjects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/__init__.py" afterDir="false" />
+    <list default="true" id="7f4facfd-fb15-48d4-aaea-9ced75fe12d4" name="Changes" comment="Second commit">
+      <change afterPath="$PROJECT_DIR$/tests/constants/Constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/pom/dashboardPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/ExcelReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/MySQLReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/common_utilis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/test_vwo_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;codeonthegit&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/codeonthegit/WebAutomationFrameworkInPaython.git&quot;,
+    &quot;accountId&quot;: &quot;fa973348-9eba-4d46-83dd-03756f4e15bd&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -47,12 +53,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor": "Run",
+    "Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_vwo_login.test_vwo_login_positive">
+    <configuration name="Python tests for test_vwo_login.test_vwo_login_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFrameworkInPaython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/vwoLoginTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login.test_vwo_login_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwo_login.test_vwo_login_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFrameworkInPaython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/vwoLoginTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login.test_vwo_login_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_vwo_login.test_vwo_login_positive" />
+        <item itemvalue="Python tests.Python tests for test_vwo_login.test_vwo_login_negative" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,6 +115,19 @@
       <option name="presentableId" value="Default" />
       <updated>1727244026145</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <option name="closed" value="true" />
+      <created>1727246202908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727246202908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
 </project>
